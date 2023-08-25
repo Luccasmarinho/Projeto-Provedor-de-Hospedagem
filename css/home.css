@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --color01: #fff;
+    --color02: #f1f3f7;
+    --color03: #f6f6f6;
+    --color04: #a89f9f;
+    --color05: #233032;
+    --color06: #2f86d6;
+    --color07: rgba(47, 134, 214, 1);
+}
+
+span {
+    color: var(--color06);
+    font-weight: bold;
+}
+
+body {
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    background-color: var(--color01);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 22px 0;
+    flex-wrap: wrap;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+header .text-logo {
+    display: flex;
+    flex-direction: column;
+}
+
+header img {
+    width: 70px;
+}
+
+header .navegation {
+    display: flex;
+    gap: 18px;
+    
+   
+
+}
+
+header .navegation a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--color05);
+    opacity: 80%;
+    transition: .4s;
+}
+
+header .navegation a:hover {
+    color: var(--color06);
+    transform: scale(1.1);
+    font-weight: bold;
+}
+
+.banner {
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--color06);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.banner .rightbanner {
+    flex: 1 1 468px;
+}
+
+.rightbanner img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner .leftbanner {
+    flex: 1 1 300px;
+    color: var(--color01);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 20px;
+    
+
+    
+}
+
+.banner .leftbanner p {
+    font-size: 0.9rem;
+}
+
+.banner .leftbanner h3 {
+    font-size: 1.5rem;
+    
+}
+
+main .anuncioblack {
+    background-color: var(--color05);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 0;
+    
+}
+
+main .leftanuncioblack h2 {
+    font-size: 1.3rem;
+    color: var(--color01);
+    margin-bottom: 3px;
+    margin-left: 5px;
+}
+
+main .leftanuncioblack p {
+    font-size: 0.8rem;
+    color: var(--color01);
+    margin-left: 5px;
+}
+
+main .anuncioblack-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 15px;
+    background-color: var(--color06);
+    border-radius: 5px;
+    margin-right: 5px;
+    color: var(--color01);
+    text-decoration: none;
+    font-weight: bold;
+    
+    
+}
+
+main .anuncioblack-btn:hover {
+    background-color: #2469a9;
+    transition: .3s;
+}
+
+
+#informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    gap: 40px;
+    padding: 40px 0;
+    
+}
+
+#informacoes h2 {
+    width: 50%;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.imginfo {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.imginfo .imgengrenagem,
+.imginfo .imgserver,
+.imginfo .imgsuporte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imginfo img {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.imginfo h4 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.imginfo p {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #7b7474;
+    
+}
+
+.tabelahome {
+    width: 100%;
+    background-color: var(--color02);
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.tabelahome h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.8rem;
+    
+}
+
+.tabelahome table {
+    width: 70%;
+    margin: 0 auto;
+    height: 85vh;
+    background-color: var(--color01);
+    font-weight: bold;
+    font-size: 1.0rem;
+    text-align: center;
+    padding-top: 30px;
+    box-shadow: 0 0 30px 8px var(--color07);
+    
+    
+}
+
+.tabelahome img {
+    width: 45%;
+}
+
+.tabelahome thead {
+    padding: 40px;
+    text-align: center;
+}
+
+
+.tabelahome table .colorgray {
+    background-color: var(--color02)
+
+}
+
+.tabelahome table thead .indicado {
+    color: var(--color04);
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+
+.anuncioblue {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 0;
+    background-color: var(--color06);
+    
+
+}
+
+
+.anuncioblue {
+    background-color: var(--color06);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 0;
+}
+
+
+
+
+.anuncioblue h2 {
+    font-size: 1.2rem;
+    color: var(--color01);
+    margin-bottom: 3px;
+    margin-left: 5px;
+}
+
+
+.anuncioblue .anuncioblue-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 15px;
+    background-color: var(--color05);
+    border-radius: 5px;
+    margin-right: 5px;
+    color: var(--color01);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.anuncioblue .anuncioblue-btn:hover {
+    background-color: #090d0e;
+    transition: .3s;
+}
+
+.anuncioblue .anuncioblue-btn p {
+    color: var(--color01);
+    margin-left: 5px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 30px;
+}
+
+footer img {
+    width: 15%;
+}
+
+footer .logoalfa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+footer .contatos {
+    text-align: center;
+}
+
+footer  p {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
